@@ -12,6 +12,12 @@
 /* container */
 .container {width: 1180px; height: inherit; /*background-color:rgba(0,0,0,0.5);*/ margin:0 auto; }
 
+/*skip*/
+.skip { position: relative;  }
+.skip a { position: absolute; left: 0;top: -50px; width: 140px; border: 1px solid #444; 
+background: #333; color: #fff; text-align: center; padding: 10px 0; }
+.skip a:focus, .skip a:active {top: 0;}
+
 /* header */
 .header {overflow: hidden;}
 .header h1 {float: left; padding-top: 24px; padding-right: 30px;}
@@ -279,3 +285,28 @@ border: 2px solid #b2ddf9; border-radius: 50px; width: 65px; height: 50px; paddi
 .sub-select5 > div  p {font-size: 15px; color: #d2f0ff; }
 .sub-select5 > div  h4 a {color: #fff;}
 .sub-select5 > div  h4 a:hover {border-bottom: 1px solid #fff;}
+
+
+#sub-infor2 {background-color: #fff;}
+#sub2 {width: 100%;}
+
+.sub-infor2 {padding: 70px 0; text-align: center;}
+.sub-infor2 h3{font-size: 40px; padding-bottom: 20px; font-weight: 300;}
+.sub-infor2 .view {font-size: 16px; display: inline-block; margin-top: 50px;  border: 1px solid #333;
+	background-color: #fff; padding: 12px 42px; transition: all 0.3s ease;}
+.sub-infor2 .view:hover {background-color: #000; color: #fff;}
+.sub2 {font-size: 40px; padding-bottom: 20px; font-weight: 300; overflow: hidden;}
+.sub2 .in {overflow: hidden; width: 50%; float: left;   }
+.sub2 .in h4 {float: left; width: 110px; height: 80px; background-color: #1d7abd; border-radius: 50%; 
+	/* box-sizing: border-box; */color: #fff; font-size: 16px; text-align: center; padding-top: 30px;}
+.sub2 .in ul {float: left; padding: 25px 0 0 20px;  }
+.sub2 .in li {padding-bottom: 10px; font-size: 16px; }
+.sub2 .in span{width: 160px; display: inline-block;  }
+.sub2 .in span.num {color: #1d7abd; }
+.sub2 .for  {overflow: hidden; width: 50%; float: left; }
+.sub2 .for h4 {float: left; width: 110px; height: 90px; background-color: #1d7abd; border-radius: 50%; 
+	/* box-sizing: border-box; */color: #fff; font-size: 16px; text-align: center; padding-top: 20px; }
+.sub2 .for ul {float: left; padding: 25px 0 0 20px; }
+.sub2 .for li {padding-bottom: 10px; font-size: 16px; }
+.sub2 .for span {width: 160px; display: inline-block;}
+.sub2 .for span.admin {color: #1d7abd;} 
