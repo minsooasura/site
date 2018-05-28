@@ -141,7 +141,7 @@ background: #333; color: #fff; text-align: center; padding: 10px 0; }
 
 
 
-/*서브페이지*/
+/*�쒕툕�섏씠吏�*/
 #sub-banner {background: url(../img/server-bg1.png) repeat-x center top;}
 #sub-banner.service-bg {background: url(../img/service-bg1.png) repeat-x center top;}
 
@@ -238,21 +238,20 @@ border: 2px solid #b2ddf9; border-radius: 50px; width: 65px; height: 50px; paddi
 .sub .for span.admin {color: #1d7abd;} 
 
 
-/* product-table 
+/* product-table */
 .product-table {padding: 80px 0;}
 .product-table .more {text-align: center; padding: 20px 0 40px; font-size: 14px;  }
 .product-table .list li {position: relative; font-size: 14px; line-height: 28px; padding-left: 10px; }
 .product-table .list li:before {content: ''; width: 3px; height: 3px; background: #333;
 	position: absolute; left: 0; top: 12px; border-radius: 50%;}
 .product-table .list .help {font-size: 18px;}
-/* table-title1 
+/* table-title1 */
 .table-title1 {position: relative; padding-bottom: 20px; }
 .table-title1 li {display: inline;  }
 .table-title1 li a {font-size: 18px; color: #999; padding: 0 10px;  }
 .table-title1 li.active a {color: #333;}
 .table-title1 .detail {position: absolute; right: 0; top: 0; font-size: 18px; color: #1d7abd;}
-
-/* table-style1 
+/* table-style1 */
 .table-style1 table {border-top: 2px solid #6f6f6f; border-bottom: 1px solid #9a9a9a; font-size: 16px; text-align: center; color: #666;}
 .table-style1 table thead th {background-color:#f9fafc; padding:20px 30px; border-bottom: 1px solid #ccc; border-right: 1px solid #e4e4e4;  }
 .table-style1 table thead th:last-child {border-right: 0;  }
@@ -265,25 +264,21 @@ border: 2px solid #b2ddf9; border-radius: 50px; width: 65px; height: 50px; paddi
 .table-style1 .large {font-size: 28px; line-height: 38px; }
 .table-style1 .small {font-size: 12px;  }
 .table-style1 .view {display: inline-block; padding: 5px 45px; color: #fff; background-color: #3090d6; font-size: 16px;  }
-
-
-
-/* table-style2 
+/*table-style2*/ 
 .table-style2 {  }
-
-/* table-style3 
-.table-style3 {  }*/
+ /*table-style3 */
+.table-style3 {  }
 
 #sub-select5 {background-color: #1d7abd;}
 
 .sub-select5 {overflow: hidden; padding: 85px 0; }
 .sub-select5 h3 {float: left; width: 32.3333%; font-size: 40px; margin-right: 1.5%; color:#fff; height: 300px;}
 .sub-select5> div {float: left; width: 26.3333%;  margin-right: 1.5%; margin-bottom: 1.5%; display: block; padding: 3%; height: 300px;}
-.sub-select5 > div.sub-simg1 {background: #2886ca url(../img/sub-sele1.png) no-repeat 30px 40px;  background-size: 90px;}
-.sub-select5 > div.sub-simg2 {background: #2886ca url(../img/sub-sele2.png) no-repeat 30px 40px;  background-size: 90px; margin-right: 0; }
-.sub-select5 > div.sub-simg3 {background: #2886ca url(../img/sub-sele2.png) no-repeat 30px 40px; background-size: 90px;  }
-.sub-select5 > div.sub-simg4 {background: #2886ca url(../img/sub-sele2.png) no-repeat 30px 40px; background-size: 90px; }
-.sub-select5 > div.sub-simg5 {background: #2886ca url(../img/sub-sele2.png) no-repeat 30px 40px; background-size: 90px; margin-right: 0;}
+.sub-select5 > div.sub-simg1 {background: #2886ca url(../img/sub-sele3.png) no-repeat 30px 40px;  background-size: 90px;}
+.sub-select5 > div.sub-simg2 {background: #2886ca url(../img/sub-sele4.png) no-repeat 30px 40px;  background-size: 90px; margin-right: 0; }
+.sub-select5 > div.sub-simg3 {background: #2886ca url(../img/sub-sele5.png) no-repeat 30px 40px; background-size: 90px;  }
+.sub-select5 > div.sub-simg4 {background: #2886ca url(../img/sub-sele6.png) no-repeat 30px 40px; background-size: 90px; }
+.sub-select5 > div.sub-simg5 {background: #2886ca url(../img/sub-sele7.png) no-repeat 30px 40px; background-size: 90px; margin-right: 0;}
 .sub-select5 > div  h4 {font-size: 18px; color: #fff; padding-bottom: 20px; padding-top: 130px; }
 .sub-select5 > div  p {font-size: 15px; color: #d2f0ff; }
 .sub-select5 > div  h4 a {color: #fff;}
@@ -313,3 +308,49 @@ border: 2px solid #b2ddf9; border-radius: 50px; width: 65px; height: 50px; paddi
 .sub2 .for li {padding-bottom: 10px; font-size: 16px; }
 .sub2 .for span {width: 160px; display: inline-block;}
 .sub2 .for span.admin {color: #1d7abd;} 
+
+/*sub-ad*/
+#sub-ad {background: url(../img/sub-ad_bg.png) no-repeat; background-size:  cover;}
+
+.sub-ad {text-align: center;color: #fff;text-align: center;}
+.sub-ad .tit {font-size: 40px; font-weight: 300; line-height: 1.3; letter-spacing: -2px;display: block; color: #fff;padding: 85px 0 0;}
+.sub-ad .sub {color: #fff; font-size: 14px;padding: 15px 0 35px; padding-bottom: 85px;font-size: 18px;font-weight: 300;letter-spacing: -1px;}
+.sub-ad p img {padding-bottom: 85px;}
+
+/*sub-content*/
+.sub-content {padding: 90px 0 85px;text-align: center;}
+.sub-content .tit {font-size: 40px;font-weight: 300;line-height: 1.3;letter-spacing: -2px;}
+.sub-content ul {padding-top:90px;}
+.sub-content li {width: 33.1%;float: none;display: inline-block;vertical-align: top; font-size: 16px;}
+.sub-content .main {margin: 8px 0;color: #333;font-size: 18px;}
+.sub-content .main a {padding-right: 10px;}
+.sub-content .main a:hover {border-bottom: 1px solid #000;}
+
+/*sub-content*/
+#sub-content2 {border-top: 1px solid #333;}
+
+.sub-content2 {padding: 90px 0 85px;text-align: center;}
+.sub-content2 .tit {font-size: 40px;font-weight: 300;line-height: 1.3;letter-spacing: -2px;}
+.sub-content2 ul {padding-top:90px;}
+.sub-content2 li {width: 33.1%;float: none;display: inline-block;vertical-align: top; font-size: 16px;}
+.sub-content2 .main {margin: 8px 0;color: #333;font-size: 18px;}
+.sub-content2 .main a {padding-right: 10px;}
+.sub-content2 .main a:hover {border-bottom: 1px solid #000;}
+.sub-content2 em {color:#1d7abd;}
+
+/*sub-notice*/
+#sub-notice {width: 100%;	}
+.sub-notice  {padding-top: 90px; width: 100%;}
+.sub-notice  h3 {display: inline-block; margin-right: 20px; font-size: 32px; color: #141414;}
+.sub-notice a.full-view{color: #666; margin-left: 20px;float: right;margin-top: 14px; font-size: 30px; }
+.sub-notice a.full-view i {padding-left: 8px;}
+.sub-notice .sub-notice {float: left;}
+.sub-notice .sub-notice .nt {border-top: 2px solid #6f6f6f;cursor: pointer;color: #676767;font-weight: 300; margin-top: 22px;}
+.sub-notice .sub-notice .nt li { border-bottom: 1px solid #e5e5e5;padding: 22px;}
+.sub-notice .q {background: #1d7abc; position: absolute;display: inline-block; width: 26px; height: 26px; text-align: center;
+	color: #fff;font-weight: 300;border-radius: 50%; font-size: 13px;padding-top: 50px;}
+.sub-notice .w {padding-left: 46px; font-size: 20px;}
+
+
+
+
